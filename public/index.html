@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App Repositórios Git</title>
+    <link rel="stylesheet" href="app-repo-git.css">
+</head>
+<body>
+    <div class="navbar"><h2 style="font-family: monospace;">Welcome to my git APP</h2></div>
+    <div class="container">
+        <div style="display: inline-block;">
+            <form>
+                <input type="text" placeholder="Digite o nome do repositório..." required>
+                <button type="submit" class="btn">Adicionar</button>
+                <small id="errorMessage" style="color: orangered; display: none"></small>
+            </form>
+        </div>
+        <div class="content">
+            <h3>Repositórios Adicionados</h3>
+            <ul id="repoList">
+                <p>Nenhum repositório adicionado...</p>
+            </ul>
+        </div>
+    </div>
+
+    <footer><center><p style="font-family: monospace">  @ MyApp 2020</p></center></footer>
+    <script src="bundle.js"></script>
+</body>
+</html>

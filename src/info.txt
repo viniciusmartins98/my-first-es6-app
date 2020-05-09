@@ -1,0 +1,1 @@
+Ficará todo o conteúdo JavaScript que utilizaremos na aplicação, monitorados pelo webpack

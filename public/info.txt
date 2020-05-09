@@ -1,0 +1,1 @@
+Ficará todo o conteúdo que não precisa de monitoração do webpack.
